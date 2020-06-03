@@ -1,0 +1,97 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'edit.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        Dialog.setObjectName("Dialog")
+        Dialog.resize(400, 300)
+        Dialog.setMinimumSize(QtCore.QSize(400, 300))
+        Dialog.setMaximumSize(QtCore.QSize(400, 300))
+        self.groupBox = QtWidgets.QGroupBox(Dialog)
+        self.groupBox.setGeometry(QtCore.QRect(10, 10, 381, 241))
+        self.groupBox.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.groupBox.setObjectName("groupBox")
+        self.layoutWidget_2 = QtWidgets.QWidget(self.groupBox)
+        self.layoutWidget_2.setGeometry(QtCore.QRect(10, 10, 361, 221))
+        self.layoutWidget_2.setObjectName("layoutWidget_2")
+        self.horizontalLayout_4 = QtWidgets.QHBoxLayout(self.layoutWidget_2)
+        self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+        self.horizontalLayout_5 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_5.setObjectName("horizontalLayout_5")
+        self.verticalLayout_4 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_4.setObjectName("verticalLayout_4")
+        self.label_10 = QtWidgets.QLabel(self.layoutWidget_2)
+        self.label_10.setObjectName("label_10")
+        self.verticalLayout_4.addWidget(self.label_10)
+        self.label_11 = QtWidgets.QLabel(self.layoutWidget_2)
+        self.label_11.setObjectName("label_11")
+        self.verticalLayout_4.addWidget(self.label_11)
+        self.label_12 = QtWidgets.QLabel(self.layoutWidget_2)
+        self.label_12.setObjectName("label_12")
+        self.verticalLayout_4.addWidget(self.label_12)
+        self.label_15 = QtWidgets.QLabel(self.layoutWidget_2)
+        self.label_15.setObjectName("label_15")
+        self.verticalLayout_4.addWidget(self.label_15)
+        self.horizontalLayout_5.addLayout(self.verticalLayout_4)
+        self.verticalLayout_5 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_5.setObjectName("verticalLayout_5")
+        self.lineEdit_7 = QtWidgets.QLineEdit(self.layoutWidget_2)
+        self.lineEdit_7.setObjectName("lineEdit_7")
+        self.verticalLayout_5.addWidget(self.lineEdit_7)
+        self.lineEdit_9 = QtWidgets.QLineEdit(self.layoutWidget_2)
+        self.lineEdit_9.setObjectName("lineEdit_9")
+        self.verticalLayout_5.addWidget(self.lineEdit_9)
+        self.lineEdit_10 = QtWidgets.QLineEdit(self.layoutWidget_2)
+        self.lineEdit_10.setObjectName("lineEdit_10")
+        self.verticalLayout_5.addWidget(self.lineEdit_10)
+        self.lineEdit_12 = QtWidgets.QLineEdit(self.layoutWidget_2)
+        self.lineEdit_12.setObjectName("lineEdit_12")
+        self.verticalLayout_5.addWidget(self.lineEdit_12)
+        self.horizontalLayout_5.addLayout(self.verticalLayout_5)
+        self.horizontalLayout_4.addLayout(self.horizontalLayout_5)
+        self.verticalLayout_6 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_6.setObjectName("verticalLayout_6")
+        self.label_16 = QtWidgets.QLabel(self.layoutWidget_2)
+        self.label_16.setObjectName("label_16")
+        self.verticalLayout_6.addWidget(self.label_16)
+        self.plainTextEdit = QtWidgets.QPlainTextEdit(self.layoutWidget_2)
+        self.plainTextEdit.setObjectName("plainTextEdit")
+        self.verticalLayout_6.addWidget(self.plainTextEdit)
+        self.horizontalLayout_4.addLayout(self.verticalLayout_6)
+        self.layoutWidget = QtWidgets.QWidget(Dialog)
+        self.layoutWidget.setGeometry(QtCore.QRect(230, 260, 158, 25))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.layoutWidget)
+        self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.pushButton = QtWidgets.QPushButton(self.layoutWidget)
+        self.pushButton.setObjectName("pushButton")
+        self.horizontalLayout_2.addWidget(self.pushButton)
+        self.pushButton_2 = QtWidgets.QPushButton(self.layoutWidget)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.horizontalLayout_2.addWidget(self.pushButton_2)
+
+        self.retranslateUi(Dialog)
+        QtCore.QMetaObject.connectSlotsByName(Dialog)
+
+    def retranslateUi(self, Dialog):
+        _translate = QtCore.QCoreApplication.translate
+        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        self.groupBox.setTitle(_translate("Dialog", "Editar"))
+        self.label_10.setText(_translate("Dialog", "Marca"))
+        self.label_11.setText(_translate("Dialog", "Modelo"))
+        self.label_12.setText(_translate("Dialog", "Cantidad"))
+        self.label_15.setText(_translate("Dialog", "Precio"))
+        self.label_16.setText(_translate("Dialog", "Descripción"))
+        self.pushButton.setText(_translate("Dialog", "Editar"))
+        self.pushButton_2.setText(_translate("Dialog", "Limpiar"))
